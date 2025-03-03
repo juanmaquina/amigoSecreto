@@ -41,5 +41,11 @@ function sortearAmigo (){
     let resultado = document.getElementById("resultado");
     resultado.innerHTML = (`El amigo ganador es: ${indiceAleatorio}`);
     lista.innerHTML = '';
-    location.reload();
+    setTimeout(reinicio,10000);
+    //location.reload();
 }
+function reinicio (){
+    sortearAmigo = location.reload();
+};
+console.log(sortearAmigo);
+
