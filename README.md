@@ -9,7 +9,7 @@ Con el objetivo de darle orden al codigo implemente tres funciones principales.
  agregarLista() Es utilizada para agregar la lista al Html y crear listas dinámicas
      cada vez que el usuario ingrese los nombres de los participantes.
  sortearAmigo() En esta función se realiza el sorteo de los integrantes de la lista,
-     se devuelve el mensaje del ganador del sorteo y se reinicia el juego.
+     se devuelve el mensaje del ganador del sorteo y se reinicia el juego nuevamente.
 Gracias.
      
 
